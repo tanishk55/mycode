@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+
+    <form>
+        <fieldset>
+            <legend>Personal detail</legend>
+    <label for="name">NAME :</label>
+    <input maxlength="5" type="text" id="name" placeholder="enter your name">
+
+    <!--required,readonly,disable-->
+
+    <br><br>
+     
+    <label for="password"> PASSWORD :</label>
+    <input type="password" id="password" placeholder="enter your password">     
+</fieldset>
+
+    <br><br>
+
+    <label for="mail"> EMail :</label>
+    <input type="email" id="mail" placeholder="enter your mail">
+
+    <input type="datetime-local">
+    <br>
+    <input type="file" multiple accept="image/*">
+    <br><br>
+    <input type="image" src="/IMAGE/OIP.jpeg" width="70px" height="30px">
+
+    <label for="male">Male</label>
+<input value="1" type="radio" name="gender">
+<label for="male">FeMale</label>
+<input value="2" type="radio" name="gender">
+
+<br><br>
+
+<label for="male">Male</label>
+<input type="checkbox" name="gender">
+<label for="male">FeMale</label>
+<input type="checkbox" name="gender">
+
+<br><br>
+
+<select>
+<optgroup label="Person 1">
+    <option value="1">Gamer</option>
+    <option value="2">Streamer</option>
+    <option value="3" disabled>Dancer</option>
+</optgroup>
+
+<optgroup label="Person 2">
+    <option value="1">Gamer</option>
+    <option value="2">Streamer</option>
+    <option value="3" disabled>Dancer</option>
+
+</optgroup>
+</select>
+<br><br>
+<textarea></textarea>
+
+<br><br>
+
+<input type="tel">
+    
+    <br><br>
+
+    <input type="date" min="2023-07-31" max="2023-09-2023">
+
+    <input type="tel" pattern="[9][1][0-9][10]">
+
+    <input type="submit" value="login">
+
+    </form>
+
+    </body>
+</html>
